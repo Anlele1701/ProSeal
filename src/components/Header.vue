@@ -1,6 +1,5 @@
 <template>
-  <div>
-    <header class="bg-white">
+    <header class="bg-white sticky top-0">
       <nav class="flex flex-row justify-between items-center relative">
         <!-- Logo -->
         <div
@@ -46,7 +45,6 @@
         </div>
       </nav>
     </header>
-  </div>
 </template>
 <script setup>
 // INIT
