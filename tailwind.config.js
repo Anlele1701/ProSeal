@@ -3,9 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      colors:{
-        "web-bg": "#E9E9E9",
-        "proseal-text":"#0A5642"
+      colors: {
+        "web-bg": "#F2F2F2",
+        "proseal-text": "#0A5642",
       },
       keyframes: {
         slideDown: {
