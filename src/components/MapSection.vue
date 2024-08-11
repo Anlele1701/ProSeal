@@ -1,7 +1,10 @@
 <template>
-  <div class="px-5 py-8" style="box-shadow: 0 4px 8px rgba(0, 0, 0, 0)">
+  <div
+    class="px-5 py-8 bg-white"
+    style="box-shadow: 0 4px 8px rgba(0, 0, 0, 0)"
+  >
     <h1 class="text-center font-light text-[44px] text-[#333]">
-      Liên hệ trực tiếp
+      - Liên hệ trực tiếp -
     </h1>
     <div class="w-full py-4 px-4 rounded-xl bg-white">
       <iframe

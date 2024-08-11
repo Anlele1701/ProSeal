@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-white sticky top-0 h-[80px] border">
+  <header class="bg-white sticky top-0 h-[80px] border z-20">
     <nav class="flex flex-row justify-between items-center relative">
       <!-- Logo -->
       <div
@@ -20,10 +20,18 @@
         }"
         class="basis-10/12 lg:flex lg:items-center lg:gap-14 uppercase text-lg font-medium lg:ps-10"
       >
-        <li class="header-menu-items">Trang Chủ</li>
-        <li class="header-menu-items">Giới thiệu về công ty</li>
-        <li class="header-menu-items">Dịch Vụ</li>
-        <li class="header-menu-items">Liên hệ</li>
+        <li class="header-menu-items" @click="scrollToElement('trangchu')">
+          Trang Chủ
+        </li>
+        <li class="header-menu-items" @click="scrollToElement('gioithieu')">
+          Giới thiệu về công ty
+        </li>
+        <li class="header-menu-items" @click="scrollToElement('service')">
+          Dịch Vụ
+        </li>
+        <li class="header-menu-items" @click="scrollToElement('lienhe')">
+          Liên hệ
+        </li>
       </ul>
       <!-- button toggle  -->
       <div @click="toggleMenu()" class="lg:hidden cursor-pointer basis-1/12">
@@ -60,6 +68,12 @@ const toggleMenu = () => {
 };
 const handleResize = () => {
   isScreenSmall.value = window.innerWidth < 1024;
+};
+const scrollToElement = (targetID) => {
+  const targetElement = document.getElementById(targetID);
+  if (targetElement) {
+    targetElement.scrollIntoView({ behavior: "smooth" });
+  }
 };
 //LIFE CYCLE
 onMounted(() => {

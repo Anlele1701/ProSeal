@@ -33,8 +33,8 @@
       </div>
       <div class="h-fit p-3">
         <img
-          class="rounded-2xl object-cover h-[350px] w-full"
-          src="https://cdn.shopify.com/s/files/1/0193/1996/files/caulking-gun.jpg?v=1528336939"
+          class="rounded-2xl h-[350px] w-full"
+          src="https://scontent.fsgn5-10.fna.fbcdn.net/v/t1.6435-9/124619719_191841299188995_6438025401165461363_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=br4KggoDNUEQ7kNvgFc2VTz&_nc_ht=scontent.fsgn5-10.fna&oh=00_AYDpxYWXUParpQZV7vzjwt7o-LRiYuMUHlqnadme6zjzww&oe=66E04C36"
         />
         <p class="font-semibold text-[25px] py-4">Tư vấn kỹ thuật</p>
         <p class="leading-8 text-gray-600">
@@ -114,5 +114,39 @@
       </div>
     </div>
   </div>
+  <!-- Section 3 -->
+  <div class="bg-white pb-8">
+    <div class="text-center font-thin text-[44px] pt-8">
+      - Đối Tác Của Chúng Tôi -
+    </div>
+    <div class="grid grid-cols-3 justify-items-center px-[6%] pt-6 gap-8">
+      <template v-for="logo in logos" :key="logo.url">
+        <img class="h-[200px] w-full object-contain" :src="logo.url" />
+      </template>
+    </div>
+  </div>
+  <div></div>
 </template>
-<script setup></script>
+<script setup>
+const logos = [
+  {
+    url: "https://cdn.prod.website-files.com/5fb85f26f126ce08d792d2d9/6660be9ed0c09b5b919d89f2_after.jpg",
+  },
+  {
+    url: "https://phindelicafe.com.vn/wp-content/uploads/2024/03/Logo_PhinDeli.png",
+  },
+  {
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCbNcBMLf0Hh5rsnUvQUYneKwooaCFoIo9fw&s",
+  },
+
+  {
+    url: "https://vanphucthuduc.com/wp-content/uploads/2021/09/cropped-Logo-kdtvanphuc-02.png",
+  },
+  {
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq65FLOyB7HywOXF_dVcoBEPfkuNg5jq59Iw&s",
+  },
+  {
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROedXv2RXmMO4m6ujSXoBLH0LaxI3JuPzWZg&s",
+  },
+];
+</script>

@@ -21,8 +21,8 @@
               baodu1994@gmail.com
             </li>
             <li>
-              <fa :icon="['fas', 'compass']" style="color: #f9f9f9" /> 828 Sư
-              Vạn Hạnh, phường 12, quận 10, HCMC
+              <fa :icon="['fas', 'compass']" style="color: #f9f9f9" />
+              489A/21/13 Huỳnh Văn Bánh, phường 13, quận Phú Nhuận, HCMC
             </li>
           </ul>
         </div>
