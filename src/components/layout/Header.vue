@@ -1,14 +1,14 @@
 <template>
-  <header class="bg-white sticky top-0">
+  <header class="bg-white sticky top-0 h-[80px] border">
     <nav class="flex flex-row justify-between items-center relative">
       <!-- Logo -->
       <div
         class="lg:basis-1/6 basis-full lg:text-center font-semibold max-w-full"
       >
         <img
-          src="../assets/logo.jpg"
+          src="../../assets/logo.jpg"
           alt="logo"
-          class="h-24 inline-block px-10"
+          class="h-16 inline-block px-10"
         />
       </div>
       <!-- menu -->

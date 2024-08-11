@@ -4,13 +4,14 @@
   <!--First para  -->
   <BD_FirstPara></BD_FirstPara>
   <!--  -->
-  <img src="../assets/BANNER2.png" class="w-full max-w-full mt-12 h-[220px]" />
+  <Banner1> </Banner1>
   <BDService></BDService>
-  <MapSection></MapSection>
   <!-- Map section -->
+  <!-- <MapSection></MapSection> -->
 </template>
 <script setup>
 import BD_FirstPara from "@/components/BDFirstPara.vue";
 import BDService from "@/components/BDService.vue";
 import MapSection from "@/components/MapSection.vue";
+import Banner1 from "@/components/Banner1.vue";
 </script>

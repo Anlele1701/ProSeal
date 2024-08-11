@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="text-center font-thin text-[42px] pt-8 lg:py-9">
+    <div class="text-center font-thin text-[42px] pt-8 lg:py-9 text-[#333]">
       - Giới thiệu -
     </div>
     <!-- 1 -->
@@ -12,14 +12,16 @@
       ></div>
       <div class="basis-1/12"></div>
       <!-- Word -->
-      <div class="basis-6/12 align-middle px-20 py-8 lg:p-0">
+      <div class="basis-6/12 align-middle px-20 py-3 lg:p-0">
         <div
           style="color: #0a5642"
           class="font-semibold text-3xl pb-3 text-center lg:text-left"
         >
           Công ty ProSeal
         </div>
-        <div class="text-[26px] lg:p-0 pb-8 font-light text-justify">
+        <div
+          class="text-[26px] lg:p-0 pb-8 font-light text-justify text-gray-600"
+        >
           Đơn vị hàng đầu chuyên về xử lý và sản xuất sản phẩm silicone chống
           nước và chống bụi độc đáo sử dụng công nghệ tân tiến nhất từ Úc để sản
           xuất các dòng sản phẩm silicone độc đáo, mang đến hiệu quả chống thấm
@@ -42,7 +44,7 @@
         >
           Đội ngũ của chúng tôi
         </div>
-        <div class="text-[26px] font-light text-justify">
+        <div class="text-[26px] font-light text-justify text-gray-600">
           Với kinh nghiệm dày dặn và chuyên môn cao, chúng tôi cam kết mang đến
           cho quý khách hàng những sản phẩm và dịch vụ chất lượng cao nhất, đáp
           ứng mọi nhu cầu về chống thấm và chống bụi cho không gian sống và làm

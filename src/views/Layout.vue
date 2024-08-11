@@ -1,7 +1,7 @@
 <script setup>
-import Header from "@/components/Header.vue";
+import Header from "@/components/layout/Header.vue";
 import { RouterView } from "vue-router";
-import Footer from "@/components/Footer.vue";
+import Footer from "@/components/layout/Footer.vue";
 </script>
 <template>
   <div class="min-h-screen bg-web-bg mx-auto">
